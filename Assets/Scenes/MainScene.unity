@@ -942,7 +942,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aab0706a705f478439bdde244717e9f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CaptureDisplay: {fileID: 0}
+  CaptureDisplay: {fileID: 2079759563}
 --- !u!1 &82439968
 GameObject:
   m_ObjectHideFlags: 0
@@ -13303,7 +13303,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 2035566383}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1423893776}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3f4b84873f4a3b447a498596e8ce2421, type: 3}
@@ -16279,7 +16279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aab0706a705f478439bdde244717e9f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CaptureDisplay: {fileID: 0}
+  CaptureDisplay: {fileID: 2079759563}
 --- !u!1 &1195310692
 GameObject:
   m_ObjectHideFlags: 0
@@ -19876,6 +19876,150 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: -20}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1423893776 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 149481173429413636, guid: e2d99f1c1f1e9c54c9115c9697ecf165,
+    type: 3}
+  m_PrefabInstance: {fileID: 2035566383}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1423893777 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 149481173429413638, guid: e2d99f1c1f1e9c54c9115c9697ecf165,
+    type: 3}
+  m_PrefabInstance: {fileID: 2035566383}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1423893782 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 149481173429413639, guid: e2d99f1c1f1e9c54c9115c9697ecf165,
+    type: 3}
+  m_PrefabInstance: {fileID: 2035566383}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423893776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0cb9aa70a22847b5925ee5f067c10a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1423893783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423893776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fa7b4195685c3846be746c74f0ab2f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1423893784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423893776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a26c941eb8a46f7b6d00416227ab8c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_XROrigin: {fileID: 1423893782}
+  m_BodyPositionEvaluatorObject: {fileID: 0}
+  m_ConstrainedBodyManipulatorObject: {fileID: 0}
+  m_UseCharacterControllerIfExists: 1
+--- !u!114 &1423893785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423893776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 626a4d6723d6ad24b9aebb811ad5a3dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Mediator: {fileID: 1423893783}
+  m_TransformationPriority: 0
+  m_MoveSpeed: 1
+  m_EnableStrafe: 1
+  m_EnableFly: 0
+  m_UseGravity: 1
+  m_ForwardSource: {fileID: 1423893777}
+  m_LeftHandMoveInput:
+    m_InputSourceMode: 2
+    m_InputAction:
+      m_Name: Left Hand Move
+      m_Type: 0
+      m_ExpectedControlType: Vector2
+      m_Id: 0d963c32-7066-4eb3-a200-bb939414786a
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_InputActionReference: {fileID: 0}
+    m_ObjectReferenceObject: {fileID: 0}
+    m_ManualValue: {x: 0, y: 0}
+  m_RightHandMoveInput:
+    m_InputSourceMode: 2
+    m_InputAction:
+      m_Name: Right Hand Move
+      m_Type: 0
+      m_ExpectedControlType: Vector2
+      m_Id: 59c53f40-9e9b-425b-8b24-f53a4c3ddb42
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_InputActionReference: {fileID: -6493913391331992944, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+    m_ObjectReferenceObject: {fileID: 0}
+    m_ManualValue: {x: 0, y: 0}
+--- !u!114 &1423893786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423893776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75b29b6c6428c984a8a73ffc2d58063b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Mediator: {fileID: 1423893783}
+  m_TransformationPriority: 0
+  m_TurnSpeed: 60
+  m_LeftHandTurnInput:
+    m_InputSourceMode: 2
+    m_InputAction:
+      m_Name: Left Hand Turn
+      m_Type: 0
+      m_ExpectedControlType: Vector2
+      m_Id: a3c94df0-168e-421e-be98-41389a3a97a9
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_InputActionReference: {fileID: 1010738217276881514, guid: c348712bda248c246b8c49b3db54643f,
+      type: 3}
+    m_ObjectReferenceObject: {fileID: 0}
+    m_ManualValue: {x: 0, y: 0}
+  m_RightHandTurnInput:
+    m_InputSourceMode: 2
+    m_InputAction:
+      m_Name: Right Hand Turn
+      m_Type: 0
+      m_ExpectedControlType: Vector2
+      m_Id: a140ff39-5650-46ac-bbe5-fd06ad823a24
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_InputActionReference: {fileID: 0}
+    m_ObjectReferenceObject: {fileID: 0}
+    m_ManualValue: {x: 0, y: 0}
 --- !u!1 &1424034744
 GameObject:
   m_ObjectHideFlags: 0
@@ -20582,7 +20726,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aab0706a705f478439bdde244717e9f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CaptureDisplay: {fileID: 0}
+  CaptureDisplay: {fileID: 2079759563}
 --- !u!1 &1457747672
 GameObject:
   m_ObjectHideFlags: 0
@@ -27293,7 +27437,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aab0706a705f478439bdde244717e9f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CaptureDisplay: {fileID: 0}
+  CaptureDisplay: {fileID: 2079759563}
 --- !u!1 &2000688388
 GameObject:
   m_ObjectHideFlags: 0
@@ -27417,6 +27561,12 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.022
       objectReference: {fileID: 0}
+    - target: {fileID: 149481173355907944, guid: e2d99f1c1f1e9c54c9115c9697ecf165,
+        type: 3}
+      propertyPath: m_UIPressInput.m_InputActionReferencePerformed
+      value: 
+      objectReference: {fileID: -5982496924579745919, guid: c348712bda248c246b8c49b3db54643f,
+        type: 3}
     - target: {fileID: 149481173355907946, guid: e2d99f1c1f1e9c54c9115c9697ecf165,
         type: 3}
       propertyPath: Distance
@@ -27585,9 +27735,30 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 149481172096803375, guid: e2d99f1c1f1e9c54c9115c9697ecf165, type: 3}
     - {fileID: 149481172127065662, guid: e2d99f1c1f1e9c54c9115c9697ecf165, type: 3}
+    - {fileID: 149481173355907947, guid: e2d99f1c1f1e9c54c9115c9697ecf165, type: 3}
+    - {fileID: 6158170661135394525, guid: e2d99f1c1f1e9c54c9115c9697ecf165, type: 3}
+    - {fileID: 6624966205270134813, guid: e2d99f1c1f1e9c54c9115c9697ecf165, type: 3}
+    - {fileID: 5750725100998440659, guid: e2d99f1c1f1e9c54c9115c9697ecf165, type: 3}
+    - {fileID: 149481173032254470, guid: e2d99f1c1f1e9c54c9115c9697ecf165, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 149481173429413636, guid: e2d99f1c1f1e9c54c9115c9697ecf165,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1423893784}
+    - targetCorrespondingSourceObject: {fileID: 149481173429413636, guid: e2d99f1c1f1e9c54c9115c9697ecf165,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1423893783}
+    - targetCorrespondingSourceObject: {fileID: 149481173429413636, guid: e2d99f1c1f1e9c54c9115c9697ecf165,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1423893786}
+    - targetCorrespondingSourceObject: {fileID: 149481173429413636, guid: e2d99f1c1f1e9c54c9115c9697ecf165,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1423893785}
     - targetCorrespondingSourceObject: {fileID: 149481173355907860, guid: e2d99f1c1f1e9c54c9115c9697ecf165,
         type: 3}
       insertIndex: -1

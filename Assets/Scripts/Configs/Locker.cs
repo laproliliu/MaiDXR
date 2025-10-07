@@ -43,8 +43,8 @@ public class Locker : MonoBehaviour
     }
     void ToggleLocalmotion()
     {
-        LocalMotion.GetComponent<ContinuousMoveProviderBase>().enabled = !LocalMotion.GetComponent<ContinuousMoveProviderBase>().enabled;
-        LocalMotion.GetComponent<ContinuousTurnProviderBase>().enabled = !LocalMotion.GetComponent<ContinuousTurnProviderBase>().enabled;
+        LocalMotion.GetComponent<UnityEngine.XR.Interaction.Toolkit.Locomotion.Movement.ContinuousMoveProvider>().enabled = !LocalMotion.GetComponent<UnityEngine.XR.Interaction.Toolkit.Locomotion.Movement.ContinuousMoveProvider>().enabled;
+        LocalMotion.GetComponent<UnityEngine.XR.Interaction.Toolkit.Locomotion.Turning.ContinuousTurnProvider>().enabled = !LocalMotion.GetComponent<UnityEngine.XR.Interaction.Toolkit.Locomotion.Turning.ContinuousTurnProvider>().enabled;
     }
     void ToggleButtons()
     {
