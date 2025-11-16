@@ -1,0 +1,8 @@
+﻿<Solution>
+  <Project Path="IOs.csproj" />
+  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="Config.csproj" />
+  <Project Path="Serial.csproj" />
+  <Project Path="Essentials.csproj" />
+  <Project Path="Assembly-CSharp-Editor.csproj" />
+</Solution>

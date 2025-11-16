@@ -113,8 +113,6 @@ namespace LIV.SDK.Unity
         {
             switch (renderingPath)
             {
-                case RenderingPath.DeferredLighting:
-                    return RENDERING_PIPELINE.DEFERRED;
                 case RenderingPath.DeferredShading:
                     return RENDERING_PIPELINE.DEFERRED;
                 case RenderingPath.Forward:
