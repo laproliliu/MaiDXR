@@ -45,7 +45,7 @@ Discord: [Discord](https://discord.gg/4aFV5QJWN5)
 
 **Build requirements**
 ---
-- Current Unity version: 6000
+- Current Unity version: 6000.2.12f1
 
 
 **Supported platform**
